@@ -6,6 +6,6 @@ for x in list_of_tables:
    
     for y in range(1,11):
         print('products_of %s is %s' %(x,products))
-        products = x * y
+       
     
 
