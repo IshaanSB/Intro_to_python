@@ -236,7 +236,7 @@ def Czech_republic():
 
 country_flag = turtle.textinput("CF","Where are you from?")
 
-if country_flag == "czech":
+if country_flag.lower == "czech":
     Czech_republic()
     
    
@@ -245,13 +245,13 @@ if country_flag == "czech":
         
 
 
-elif country_flag == "india":
+elif country_flag.lower == "india":
     Indian_flag()
     
-elif country_flag == "bangladesh":
+elif country_flag.lower == "bangladesh":
     banglad_flag()
     
-elif country_flag == "switzerland":
+elif country_flag.lower == "switzerland":
     swiss_flag()
     
 else:
